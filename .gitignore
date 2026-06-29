@@ -8,3 +8,5 @@ __pycache__/
 training_log.txt
 training_err.txt
 .ipynb_checkpoints/
+
+*.pt
