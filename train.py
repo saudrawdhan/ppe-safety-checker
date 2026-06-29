@@ -1,16 +1,16 @@
 from ultralytics import YOLO
 
-model = YOLO("yolov8n.pt")
+model = YOLO("yolov8s.pt")
 
 model.train(
     data="data.yaml",
-    epochs=50,
+    epochs=100,
     imgsz=640,
     batch=16,
-    name="ppe_model",
+    name="ppe_model_v2",
     project="runs",
-    patience=10,
+    patience=15,
     device=0,
 )
 
-print("\nTraining complete. Best model saved to: runs/ppe_model/weights/best.pt")
+print("\nTraining complete. Best model saved to: runs/detect/runs/ppe_model_v2/weights/best.pt")
