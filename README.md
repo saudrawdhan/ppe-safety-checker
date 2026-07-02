@@ -2,6 +2,8 @@
 
 Detects missing Personal Protective Equipment (PPE) in construction-site images and video using a fine-tuned YOLOv8 model. When a worker is missing a helmet, vest, or mask, the system flags the frame, annotates the violation, raises an alert, and logs it.
 
+**Live demo:** https://huggingface.co/spaces/SaudRaw/ppe-safety-checker — upload an image or try a sample directly in the browser, no setup required.
+
 ---
 
 ## AI Usage
